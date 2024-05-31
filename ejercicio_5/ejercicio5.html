@@ -1,0 +1,36 @@
+<!--5- Una empresa constructora vende terrenos con la forma A de la figura. Realice una página que
+obtenga el área respectiva de un terreno de medidas de cualquier valor. Todas las medidas deben
+estar en metros-->
+
+<html lang="en"> 
+    <head> <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Ejercicio 5</title> 
+        <link rel="stylesheet" href="estilo.css"> 
+        
+    </head>
+
+<body>
+    
+    <h1>Calculo de Area de un terreno</h1>
+    <p>Ingrese el terreno que presente la siguiente forma. <br>
+        Todas las medidas deben estar en metros
+    </p>
+    <img src="image.png" alt="png">
+    <form id="formulario">
+        <label for="ladoA">Lado A</label>
+        <input type="number"  id="ladoA" >
+        <label for="ladoB">Lado B</label>
+        <input type="number" id="ladoB">
+        <label for="ladoC">Lado C</label>
+        <input type="number" id="ladoC">
+        <button id="calcular" type="submit">Calcular</button>
+        <br>
+        
+            
+    </form>
+    <label id="resultado"></label>
+    
+</body>
+    <script src="ejercicio5.js" defer ></script>
+</html>

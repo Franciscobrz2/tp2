@@ -1,0 +1,38 @@
+<!--4- El índice de masa corporal es el cociente entre el peso del individuo en kilos y el cuadrado de su
+estatura en metros.
+
+IMC=peso/Math.po2(cestatura,2)
+
+Realice una página con un formulario que reciba como entrada la estatura y el peso de una persona,
+y muestre su IMC como alerta al presionar un botón llamado ‘calcular’.-->
+
+
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> <meta charset="UTF-8" /> 
+        <title>Ejercicio 1</title>
+        <link rel="stylesheet" href="estilo.css">
+       
+    </head> 
+<body>
+    <div>
+        <h1>Indice de masa corporal</h1> 
+        
+        <div id="div_formulario">  
+            <form id="formulario"> 
+                <label id="estatura1">Estatura en metros:</label> 
+                <input id="estatura"  type="bolean"  step="0.01"  /> 
+                <br /> 
+                <label id="peso1">Peso en kilos:</label> 
+                <input id="peso" type="number" step="1" /> <br /> 
+                <button id="calcular" type="submit">Calcular</button> 
+            </form>
+            <label id="resultado"></label>
+        </div>
+       
+    </div>
+
+</body> 
+    <script src="ejercicio4.js" defer></script>
+</html>
+

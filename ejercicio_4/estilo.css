@@ -1,0 +1,44 @@
+body{
+    background-color: beige
+}
+
+div{
+    background-color: white;
+    border: solid;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    margin-left:15% ;
+    margin-top: 5%;
+}
+
+h1{
+    text-align: center;
+}
+
+#div_formulario{
+
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 70%;
+    height: 70%;
+
+}
+
+#formulario{
+    margin-top: 15%;
+    margin-left: 40%;
+    
+
+}
+
+
+button{
+
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+label{
+    margin-bottom: 200px;
+}
