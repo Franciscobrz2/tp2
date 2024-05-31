@@ -18,28 +18,28 @@ validaciones son correctas mostrar el mensaje en verde, en caso contrario en roj
     </head> 
 <body>
     <div>
-        <h1>Indice de masa corporal</h1> 
+        <h1>formulario de persona</h1> 
         
         <div id="div_formulario">  
             <form id="formulario"> 
                 <label id="nombre1">Nombre:</label> 
-                <input id="nombre"  type="text" maxlength="50"   /> <br /> <!--NO VACIO-->
+                <input id="nombre" name="nombre"  type="text" maxlength="50"   /> <br /> <!--NO VACIO-->
 
                 <label id="apellido1">Apellido:</label> 
-                <input id="apellido" type="text" maxlength="50"/> <br />  <!--NO VACIO-->
+                <input id="apellido" name="apellido" type="text" maxlength="50"/> <br />  <!--NO VACIO-->
 
                 <label id="edad1">Edad:</label> 
-                <input id="edad"  type="number" step="1"  /> <br /> 
+                <input id="edad" name="edad" type="number" step="1"  /> <br /> 
 
                 <label id="altura1">Altura(cm):</label> 
-                <input id="altura"  type="number" step="1"  /> <br /> 
+                <input id="altura" name="altura"  type="number" step="1"  /> <br /> 
 
                 <label id="correo1">Correo Electronico:</label> 
-                <input id="correo"  type="text" maxlength="50"   /> <br /> 
+                <input id="correo" name="correo" type="text" maxlength="50"   /> <br /> 
 
                 <button id="enviar" type="submit">Enviar</button> 
             </form>
-            <p id="resultado"></p>
+            <p id="mensaje"></p>
         </div>
        
     </div>
